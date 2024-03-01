@@ -7,8 +7,11 @@ import Navbar from './components/Navbar'
 import LoginPage from './components/LoginPage'
 import SplashComp from './components/SplashComp';
 
+
 function App() {
   return (
+    <>
+
       <CssBaseline>
         <CssVarsProvider>
 
@@ -19,7 +22,7 @@ function App() {
             sx={{
               height: '1vh'
             }}
-          >
+            >
             <Navbar />
             <SplashComp />
             <LoginPage />
@@ -30,6 +33,7 @@ function App() {
 
         </CssVarsProvider>
       </CssBaseline>
+            </>
   )
 }
 
