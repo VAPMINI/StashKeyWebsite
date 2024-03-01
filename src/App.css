@@ -1,0 +1,14 @@
+#root{
+  height: 100vh;
+}
+.app{
+  height: 100vh;
+}
+
+#btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px;
+  background-color: wheat;
+}
